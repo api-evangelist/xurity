@@ -1,7 +1,24 @@
 aid: xurity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xurity.png
 name: Xurity
-description: Xurity is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Xurity, Ltd. is a former Battery Ventures portfolio company, listed as an
+  exited investment on Battery's all-companies roster (Q1 2026). As of July 2026 the
+  company has no discoverable web presence - xurity.com is parked for sale on the
+  Atom.com domain marketplace (Atom nameservers, Afternic verification, no MX records)
+  - and no first-party packages, GitHub organization, or API documentation could be
+  found on npm, PyPI, or GitHub. This profile is retained as a historical
+  portfolio-graph record; no API surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/xurity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Exited Investment
+- Portfolio Company
+- Battery Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
